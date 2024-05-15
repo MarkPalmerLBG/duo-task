@@ -68,7 +68,7 @@ spec:
 
       - name: nginx-container
 
-        image: stratcastor/flask-nginx:latest
+        image: arnie1974/flask-nginx:latest
 
         ports:
 
