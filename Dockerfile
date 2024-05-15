@@ -1,4 +1,4 @@
-Flask-app;
+# Flask-app;
 
 # Use Python 3.6 as a base image
 
@@ -24,7 +24,7 @@ ENTRYPOINT [ "python", "app.py" ]
 
 --------------------------------------------------------------------------
 
-Nginx;
+# Nginx;
 
 # Use nginx:latest as a base image
 
