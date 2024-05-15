@@ -68,7 +68,7 @@ spec:
 
       - name: flask-container
 
-        image: stratcastor/duo-deploy-flask:latest
+        image: arnie1974/duo-deploy-flask:latest
 
         ports:
 
