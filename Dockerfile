@@ -16,7 +16,7 @@ RUN pip install -r requirements.txt
 
 # Expose the correct port
 
-EXPOSE 5500
+EXPOSE 5000
 
 # Create an entrypoint
 
@@ -33,3 +33,9 @@ FROM nginx:latest
 # Copy our custom nginx.conf into the correct location
 
 COPY nginx.conf /etc/nginx/nginx.conf
+
+Database: 
+
+FROM  mysql:5.7
+
+COPY CreateTable.sql docker-entrypoint-initdb.d/
